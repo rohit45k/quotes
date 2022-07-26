@@ -42,7 +42,6 @@ const QuoteForm = (props) => {
           </div>
         </form>
       </Card>
-      {alert('Once you leave this page. All your progress will be gone.')}
     </>
   );
 };
