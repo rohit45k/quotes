@@ -24,10 +24,10 @@ const QuoteList = (props) => {
 
   const sortedQuotes = sortQuotes(props.quotes, isSortingAsc);
 
+  console.log(navigate);
+
   const changeSortingHandler = () => {
-    navigate(location.pathname, {
-      search: `?sort=${isSortingAsc ? 'desc' : 'asc'}`,
-    });
+    navigate(`${location.pathname}?sort=${isSortingAsc ? 'desc' : 'asc'}`);
   };
 
   return (
