@@ -7,7 +7,7 @@ This app provides you the feature of posting your quotes online.
 ### To run this application on your local machine 
 Pre-requisite (Node installed on the system)
 
-1. Either download the project and extract it or clone the project using (git clone ...url)
+1. Either download the project and extract it or clone the project using (git clone https://github.com/rohit45k/quotes.git)
 2. Open the project in the terminal or VS Code (reccomended) and run the command **npm install**
 3. It will start the project on **localhost:3000**
 
